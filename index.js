@@ -3,7 +3,7 @@ console.log('Hello, World!');
 const p1 = new Promise((resolve, reject) => {
     setTimeout(() => {
         resolve('Success with 1');
-    }, 2000);
+    }, 1000);
 });
 
 const p2 = new Promise((resolve, reject) => {
